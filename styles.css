@@ -1,8 +1,16 @@
-body {
-    margin:50px 0; 
-    padding:0;
-    text-align:center;
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+}
+
 #image {
     display: block;
     margin-left: auto;
